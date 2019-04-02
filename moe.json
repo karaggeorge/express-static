@@ -1,18 +1,16 @@
 {
   "name": "Node.js",
-  "versions": [
-    {
-      "prompt": "Which framework would you like to use?",
-      "options": [
-        {
-          "label": "Express.js",
-          "branch": "express"
-        },
-        {
-          "label": "Hapi.js",
-          "branch": "hapi"
-        }
-      ]
-    }
-  ]
+  "versions": {
+    "prompt": "Which framework would you like to use?",
+    "options": [
+      {
+        "label": "Express.js",
+        "branch": "express"
+      },
+      {
+        "label": "Hapi.js",
+        "branch": "hapi"
+      }
+    ]
+  }
 }
