@@ -1,8 +1,8 @@
 Starer Kit for Node.js
---
-```
-Built for [moe](https://github.com/northhighland/moe)
-```
+---
+
+> Built for [moe](https://github.com/northhighland/moe)
+
 
 Basic http server built in Node.js
 
