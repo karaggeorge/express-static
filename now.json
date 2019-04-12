@@ -5,6 +5,6 @@
     "IS_NOW": "true"
   },
   "builds": [
-    { "src": "index.ts", "use": "@now/node" }
+    { "src": "index.ts", "use": "@now/node-server" }
   ]
 }
