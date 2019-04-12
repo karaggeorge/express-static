@@ -1,16 +1,9 @@
 {
-  "name": "Node.js",
-  "versions": {
-    "prompt": "Which framework would you like to use?",
-    "options": [
-      {
-        "label": "Express.js",
-        "branch": "express"
-      },
-      {
-        "label": "Hapi.js",
-        "branch": "hapi"
-      }
-    ]
-  }
+  "name": "Express.js",
+  "addons": [
+    {
+      "label": "Serve static files",
+      "merge": "express-static"
+    }
+  ]
 }
