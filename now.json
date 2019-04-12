@@ -1,0 +1,10 @@
+{
+  "name": "moe-node",
+  "version": 2,
+  "env": {
+    "IS_NOW": "true"
+  },
+  "builds": [
+    { "src": "index.ts", "use": "@now/node" }
+  ]
+}

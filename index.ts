@@ -10,6 +10,10 @@ const requestHandler = (request: http.IncomingMessage, response: http.ServerResp
 
 const server = http.createServer(requestHandler);
 
-server.listen(port, () => {
-  console.log(`Server is listening on ${port}`);
-});
+if (!process.env.IS_NOW) {
+  server.listen(port, () => {
+    console.log(`Server is listening on ${port}`);
+  });
+}
+
+export default server;
