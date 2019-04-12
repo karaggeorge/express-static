@@ -1,6 +1,7 @@
 {
   "name": "moe-node",
   "version": 2,
+  "alias": "moe-node.northhighland.now.sh",
   "env": {
     "IS_NOW": "true"
   },
